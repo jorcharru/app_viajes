@@ -1,0 +1,48 @@
+name: app_viajes
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  syncfusion_flutter_xlsio: ^28.2.6
+  intl: ^0.18.1
+  path_provider: ^2.0.15
+  share_plus: ^10.1.4
+  win32: ^5.11.0
+  open_file: ^3.2.1
+  csv: ^6.0.0
+  cupertino_icons: ^1.0.8
+  dio: ^5.8.0+1  # Si aún la necesitas
+  dio_web_adapter: ^2.1.0  # Si aún la necesitas
+  file_saver: ^0.2.14  # Si aún la necesitas
+  file_picker: ^9.0.0
+  shared_preferences: ^2.2.2
+  cross_file: ^0.3.3
+  sqflite: ^2.4.2
+  path: ^1.9.1
+
+
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.3
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icono.png"
+
